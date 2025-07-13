@@ -35,27 +35,49 @@ This project is a culturally grounded AI assistant that understands and responds
 ## 📂 Project Structure
 
 kumaoni-voice-chatbot/
+
 │
+
 ├── data/ # Bilingual dataset with audio
+
 │ └── kumaoni_dataset.json # 2000+ entries (Unicode + Roman + Audio)
+
 │
+
 ├── rag/ # RAG setup and FAISS integration
+
 │ └── embed_store.py
+
 │ └── retriever.py
+
 │
+
 ├── llm/ # Fine-tuning scripts
+
 │ └── train_lora.py
+
 │ └── generate_response.py
+
 │
+
 ├── tts_stt/ # Voice interface
+
 │ └── whisper_stt.py
+
 │ └── coqui_tts.py
+
 │
+
 ├── app/ # Streamlit interface
+
 │ └── main_app.py
+
 │
+
 ├── requirements.txt
+
 └── README.md
+
 
 ---
 
