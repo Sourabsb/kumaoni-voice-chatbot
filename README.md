@@ -119,7 +119,3 @@ Open-source tools: GPT-2, Whisper, Coqui, FAISS, Streamlit
 
 ## 🔗 License
 This project is released under the MIT License.
-
-yaml
-Copy
-Edit
